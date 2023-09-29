@@ -1,3 +1,66 @@
+/* styles.css created by Carlos A. Valdez */
+
+:root {
+
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.sections {
+    /* combination of both left and right sections */
+    display: flex; 
+    /* leave direction as is */
+}
+
+/* Left Section */
+.left-section {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    background-image: url("./images/signupImage.jpg");
+    color:white;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.credits {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    color:blueviolet;
+}
+
+/* Right Section */
+.top {
+    background-color: #E8E8E8;
+}
+.top-text {
+    margin-top: 0px;
+    margin-left: 30px;
+    padding: 48px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.top-text2 {
+    margin-top: 0px;
+    margin-left: 80px;
+    font-size: 24px;
+}
+
+.bottom {
+    background-color: #E8E8E8;
+    padding: 90px;
+    font-size: 24px;
+    font-weight: bold;
 }
