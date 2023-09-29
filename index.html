@@ -15,14 +15,14 @@
         <div class="sections">
             <div class="left-section">
                 <div class="banner">
-                    <img class="logo" src="./images/odin-lined.png" alt="logo">
-                    ODIN
+                    <img src="./images/odin-lined.png" alt="odin-logo">
+                    <h1>ODIN</h1>
                 </div>
                 <p class="credits">
                         Photo by Halie West on 
                         <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash </a>
                 </p>
-            </div>
+            </div> <!-- END LEFT-SECTION-->
 
             <div class="right-section">
                 <div class="top">
@@ -36,25 +36,53 @@
                     <p class="top-text2">
                         You <em>know </em> you want to.
                     </p>
-
                 </div>
-                <div class="form-section">
-                    <p class="form-section-text1">
-                        Let's do this!
-                    </p>
-                    <!-- Form has a 2 column style-->
-
-                </div>
+                <form action="#">
+                    <div class="form-container">
+                        <p class="form-section-text1">
+                            Let's do this!
+                        </p>
+                        <!-- Form has a 2 column style-->
+                        <fieldset>
+                            <div class="form-cell">
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="text" name="first-name" id="first-name">
+                            </div>
+                            <div class="form-cell">
+                                <label for="last-name">LAST NAME</label>
+                                <input type="text" name="last-name" id=last-name>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="form-cell">
+                                <label for="email">EMAIL</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                            <div class="form-cell">
+                                <label for="phone-number">PHONE NUMBER</label>
+                                <input type="tel" name="phone-number" id="phone-number">
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="form-cell">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" name="password" id="password" required>
+                            </div>
+                            <div class="form-cell">
+                                <label for="confirm-password">CONFIRM PASSWORD</label>
+                                <input type="password" name="confirm-password" id="confirm-password" required>
+                            </div>
+                        </fieldset>
+                    </div>
                 <div class="bottom">
-                    <button>Create Account</button>
+                    <button class="create-account-button" type="submit">Create Account</button>
                     <p>
                         Already have an account 
                         <a class="bottom-login" href="#">Log in</a>
                     </p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</body>
-</html>
+                </div> <!-- END BOTTOM-->
+            </div> <!-- END RIGHT-SECTION-->
+        </div> <!-- END SECTIONS-->
+    </div> <!-- END CONTAINER-->
+</body> <!-- END BODY -->
+</html> <!-- END HTML -->

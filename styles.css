@@ -44,23 +44,67 @@ a {
 /* Right Section */
 .top {
     background-color: #E8E8E8;
+    padding: 3rem 2rem;
 }
 .top-text {
-    margin-top: 0px;
-    margin-left: 30px;
-    padding: 48px;
     font-size: 24px;
     font-weight: bold;
 }
 .top-text2 {
-    margin-top: 0px;
-    margin-left: 80px;
     font-size: 24px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    height: 50%;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.form-section-text1 {
+    font-size: 20px;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding-left: 0;
+}
+
+.form-cell {
+    display:flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+form label {
+    font-weight: 300;
+}
+
+form input {
+    border: 1px solid #D6D9DC;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
 }
 
 .bottom {
     background-color: #E8E8E8;
-    padding: 90px;
     font-size: 24px;
     font-weight: bold;
+    padding: 2rem;
+    padding-bottom: 4rem;
+}
+
+.create-account-button {
+    background-color: #596D48;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 40px;
 }
